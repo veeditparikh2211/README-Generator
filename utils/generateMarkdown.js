@@ -22,12 +22,12 @@ function generateMarkdown(data) {
  
  # Table of Contents
   
- *[Insallation](#installation)
- *[Usage](#usage)
- *[License](#license)
- *[Contributing](#contributing)
- *[Test](#test)
- *[Questions](#questions)
+ * [Insallation](#installation)
+ * [Usage](#usage)
+ * [License](#license)
+ * [Contributing](#contributing)
+ * [Test](#test)
+ * [Questions](#questions)
  
 
  # Installation

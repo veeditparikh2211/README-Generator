@@ -4,23 +4,23 @@
   http://github.com/veeditparikh2211/README-Generator
   
  # Description
-    This project allows you to create a README.md file with the use of putting the input and proding the data to create the readme file with the use of clean and efficient code.
+   This project allows you to create a README.md file with the use of user input and anwers. This project helps to understand the use of dependencies as well to create the README.md for any project the person is working on.
  
  # Table of Contents
   
- *[Insallation](#installation)
- *[Usage](#usage)
- *[License](#license)
- *[Contributing](#contributing)
- *[Test](#test)
- *[Questions](#questions)
+ * [Insallation](#installation)
+ * [Usage](#usage)
+ * [License](#license)
+ * [Contributing](#contributing)
+ * [Test](#test)
+ * [Questions](#questions)
  
 
  # Installation
-  Steps to install the project using the dependencies is as follows.npm inquirer, fs, util
+  Steps to install the project using the dependencies is as follows. inquirer, fs, util
 
  # Usage
- Provide Instructiong and examples for use. This project is used to crete README.md for any project.
+ Provide Instructiong and examples for use. This project is used to create README.md for any project.
 
  # License
  Project is licensed by MIT
