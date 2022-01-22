@@ -22,12 +22,12 @@ function generateMarkdown(data) {
  
  # Table of Contents
   
- 1.[Insallation](#installation)
- 2.[Usage](#usage)
- 3.[License](#license)
- 4.[Contributing](#contributing)
- 5.[Test](#test)
- 6.[Questions](#questions)
+ *[Insallation](#installation)
+ *[Usage](#usage)
+ *[License](#license)
+ *[Contributing](#contributing)
+ *[Test](#test)
+ *[Questions](#questions)
  
 
  # Installation
@@ -38,7 +38,7 @@ function generateMarkdown(data) {
 
  # License
  Project is licensed by ${data.License}
- ![Github license](https://img.shields.io/badge/license-MIT-green.svg)
+ [![Github license](https://img.shields.io/badge/license-MIT-green.svg)]
 
  # Contributing
  Contributors to the project : ${data.Contributing}

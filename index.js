@@ -47,14 +47,14 @@ const questions = [{
     {
         type: 'input',
         name: 'Usage',
-        message: 'What all did you use to create this project.',
+        message: 'What is this project used for ?',
 
     },
 
     {
         type: 'input',
         name: 'License',
-        message: 'What type of license is been used.',
+        message: 'What type of license is been used ?',
 
     },
     {
@@ -66,7 +66,7 @@ const questions = [{
     {
         type: 'input',
         name: 'Test',
-        message: 'Which commands were used to create this project.',
+        message: 'Which commands were used to create and test this project.',
 
     },
     {
