@@ -9,20 +9,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 // TODO: Create an array of questions for user input
 const questions = [{
         type: 'input',
-        name: 'github',
-        message: 'Enter your GitHub Username ',
-        validate: githubInput => {
-            if (githubInput) {
-                return true;
-            } else {
-                console.log('Please enter your GitHub username!');
-                return false;
-            }
-        }
-    },
-    {
-        type: 'input',
-        name: 'name',
+        name: 'Title',
         message: 'What is the title of your project? ',
         validate: nameInput => {
             if (nameInput) {
@@ -35,7 +22,7 @@ const questions = [{
     },
     {
         type: 'input',
-        name: 'description',
+        name: 'Description',
         message: 'Provide a description of the project',
         validate: descriptionInput => {
             if (descriptionInput) {
@@ -47,10 +34,9 @@ const questions = [{
         }
     },
     {
-        type: 'checkbox',
-        name: 'languages',
-        message: 'What did you this project with? ',
-        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+        type: 'input',
+        name: 'Table of Contents',
+        message: 'Table of Contents'
     },
     {
         type: 'input',
@@ -60,23 +46,48 @@ const questions = [{
     },
     {
         type: 'input',
-        name: 'link',
-        message: 'Enter the GitHub link to your project. (Required)',
-        validate: linkInput => {
-            if (linkInput) {
-                return true;
-            } else {
-                console.log('You need to enter a project GitHub link!');
-                return false;
-            }
-        }
+        name: 'Usage',
+        message: 'What all did you use to create this project.',
+
+    },
+
+    {
+        type: 'input',
+        name: 'License',
+        message: 'What type of license is been used.',
+
     },
     {
-        type: 'confirm',
-        name: 'feature',
-        message: 'Would you like to feature this project?',
-        default: false
+        type: 'input',
+        name: 'Contributing',
+        message: 'Who all contributed to this project.',
+
     },
+    {
+        type: 'input',
+        name: 'Test',
+        message: 'Which commands were used to create this project.',
+
+    },
+    {
+        type: 'input',
+        name: 'Questions',
+        message: 'Feel free to ask any questions.',
+
+    },
+    {
+        type: 'input',
+        name: 'Username',
+        message: 'Please provide your Github username.',
+
+    },
+    {
+        type: 'input',
+        name: 'Email',
+        message: 'Please provide your email address.',
+
+    },
+
 ];
 
 

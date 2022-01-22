@@ -13,29 +13,43 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
     return `
-  # ${data.title}
-  ${data.github}
+  # ${data.Title}
 
-  ##Description
-   ${data.description}
- 
- ## Table of Contents
+  http://github.com/${data.Username}/${data.Title}
   
- 1.[Description](#description)
- 2.[Languages](#languages)
- 3.[Insallation](#Installation)
- 4.[Feature](#feature)
- 5.[Link](#link)
+  #Description
+   ${data.Description}
+ 
+ # Table of Contents
+  
+ 1.[Insallation](#installation)
+ 2.[Usage](#usage)
+ 3.[License](#license)
+ 4.[Contributing](#contributing)
+ 5.[Test](#test)
+ 6.[Questions](#questions)
+ 
 
- ## Languages Used
- ${data.languages}
+ # Installation
+  Steps to install the project using the dependencies is as follows.${data.Installation}
 
- ## Installation
-  ${data.Installation}
-  ${data.link}
+ # Usage
+ Provide Instructiong and examples for use. ${data.Usage}
 
-  ## Feature
-  ${data.feature}
+ # License
+ Project is licensed by ${data.License}
+ ![Github license](https://img.shields.io/badge/license-MIT-green.svg)
+
+ # Contributing
+ Contributors to the project : ${data.Contributing}
+
+ # Test
+ Following commands needed to rung the project : ${data.Test}
+
+ # Qiestions
+ Feel free to ask any questions about the project. ${data.Username}/${data.Email}
+
+ 
 `;
 }
 
