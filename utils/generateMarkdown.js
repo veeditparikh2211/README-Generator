@@ -47,7 +47,7 @@ function generateMarkdown(data) {
  Following commands needed to rung the project : ${data.Test}
 
  # Qiestions
- Feel free to ask any questions about the project. ${data.Username}/${data.Email}
+ Feel free to ask any questions about the project. ${data.Username} ${data.Email}
 
  
 `;
