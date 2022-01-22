@@ -17,7 +17,7 @@ function generateMarkdown(data) {
 
   http://github.com/${data.Username}/${data.Title}
   
-  #Description
+ # Description
    ${data.Description}
  
  # Table of Contents
@@ -46,8 +46,8 @@ function generateMarkdown(data) {
  # Test
  Following commands needed to rung the project : ${data.Test}
 
- # Qiestions
- Feel free to ask any questions about the project. ${data.Username} ${data.Email}
+ # Questions
+ Feel free to ask any questions about the project. ${data.Username} or you can email me at : ${data.Email}
 
  
 `;
