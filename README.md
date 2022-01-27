@@ -24,7 +24,7 @@
 
  # Screenshot
  Yes
- ![](imagesscreenshot.PNG)
+ ![](images/screenshot.PNG)
 
  # License
  Project is licensed by [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -37,7 +37,7 @@
  Following commands needed to rung the project : node index.js
 
  # Questions
- Feel free to ask any questions about the project. veeditparikh2211 or you can email me at : veeditparikh2211@gmail.com
+ Feel free to ask any questions about the project. veeditparikh2211 or you can email me at : veeditoarikh2211@gmail.com
 
  # Github Link www.github.com/veeditparikh2211
  

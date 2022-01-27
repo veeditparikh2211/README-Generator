@@ -38,7 +38,7 @@ function generateMarkdown(data) {
 
  # Screenshot
  ${data.Screenshot}
- ![](images\screenshot.PNG)
+ ![](images/screenshot.PNG)
 
  # License
  Project is licensed by [![License](https://img.shields.io/badge/License-${data.License}-blue.svg)](https://opensource.org/licenses/${data.License})
