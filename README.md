@@ -1,7 +1,7 @@
 
-  # README-Generator
+  # README Generator
 
-  http://github.com/veeditparikh2211/README-Generator
+  http://github.com/veeditparikh2211/README Generator
   
  # Description
    This project allows you to create a README.md file with the use of user input and anwers. This project helps to understand the use of dependencies as well to create the README.md for any project the person is working on.
@@ -17,13 +17,17 @@
  
 
  # Installation
-  Steps to install the project using the dependencies is as follows. inquirer, fs, util
+  Steps to install the project using the dependencies is as follows.inquirer, fs, util
 
  # Usage
  Provide Instructiong and examples for use. This project is used to create README.md for any project.
 
+ # Screenshot
+ No
+ ![](images.screeshot.png)
+
  # License
- Project is licensed by MIT
+ Project is licensed by [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
  [![Github license](https://img.shields.io/badge/license-MIT-green.svg)]
 
  # Contributing
@@ -35,4 +39,5 @@
  # Questions
  Feel free to ask any questions about the project. veeditparikh2211 or you can email me at : veeditparikh2211@gmail.com
 
+ # Github Link www.github.com/https://github.com/veeditparikh2211
  

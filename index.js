@@ -64,6 +64,15 @@ const questions = [{
 
     },
     {
+        type: 'list',
+        name: 'Screenshot',
+        message: 'Screenshot of the README Generator',
+        choices: [
+            `Yes`, `No`
+        ]
+
+    },
+    {
         type: 'input',
         name: 'Test',
         message: 'Which commands were used to create and test this project.',
@@ -85,6 +94,12 @@ const questions = [{
         type: 'input',
         name: 'Email',
         message: 'Please provide your email address.',
+
+    },
+    {
+        type: 'input',
+        name: 'Git',
+        message: 'Please provide your Github link.',
 
     },
 

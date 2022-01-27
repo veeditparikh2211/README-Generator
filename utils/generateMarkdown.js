@@ -36,8 +36,12 @@ function generateMarkdown(data) {
  # Usage
  Provide Instructiong and examples for use. ${data.Usage}
 
+ # Screenshot
+ ${data.Screenshot}
+ ![](images.screeshot.png)
+
  # License
- Project is licensed by ${data.License}
+ Project is licensed by [![License](https://img.shields.io/badge/License-${data.License}-blue.svg)](https://opensource.org/licenses/${data.License})
  [![Github license](https://img.shields.io/badge/license-MIT-green.svg)]
 
  # Contributing
@@ -49,6 +53,7 @@ function generateMarkdown(data) {
  # Questions
  Feel free to ask any questions about the project. ${data.Username} or you can email me at : ${data.Email}
 
+ # Github Link www.github.com/${data.Git}
  
 `;
 }
